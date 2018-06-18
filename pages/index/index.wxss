@@ -1,0 +1,95 @@
+view {
+  margin: 0;
+  padding: 0;
+}
+.gamerecord{
+  box-sizing: border-box;
+  height: 300rpx;
+  width: 750rpx;
+  background-color: #289;
+  border: 10rpx solid #999;
+  border-bottom: none;
+}
+.gameinfoleft{
+  float: left;
+  font-size: 50rpx;
+  font-weight: bold;
+  color: #acd
+}
+.gameinforight{
+  font-size: 60rpx;
+  font-weight: bold;
+  color: #aae;
+  text-align: center;
+}
+.scord{
+  font-size: 100rpx;
+  text-align: center;
+}
+.name{
+  margin-top: 40rpx;
+  margin-left: 30rpx;
+  text-shadow: 5rpx 5rpx 0 black;
+}
+.regame{
+  text-shadow: 2rpx 2rpx 0 black;
+  line-height: 90rpx;
+  text-align: center;
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  height: 90rpx;
+  width: 380rpx;
+  background-color: red;
+  border: 2rpx solid #122;
+  box-shadow: 5rpx 5rpx 0 black;
+}
+.gamecontainer {
+  box-sizing: border-box;
+  height: 750rpx;
+  width: 750rpx;
+  padding: 25rpx;
+  background-color: #222;
+  border: 5rpx solid #999;
+}
+.row{
+  box-sizing: border-box;
+  height: 175rpx;
+  background-color: #289;
+}
+.cell{
+  box-sizing: border-box;
+  display: inline-block;
+  height:  175rpx;
+  width: 172rpx;
+  text-align: center;
+  line-height: 175rpx;
+  border:2rpx solid red;
+  font-size: 50rpx;
+}
+.cell-con-0{
+  background-color: green;
+}
+.cell-con-2{
+  background-color: #199;
+}
+.cell-con-4{
+  background-color: #188;
+}
+.cell-con-8{
+  background-color: #177;
+}
+.cell-con-16{
+  background-color: #166;
+}
+.cell-con-32{
+  background-color: #155;
+}
+.cell-con-64{
+  background-color: #144;
+}
+.cell-con-128{
+  background-color: #133;
+}
+.cell-con-256{
+  background-color: #122;
+}

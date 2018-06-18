@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="gamerecord">
+<view class="gameinfoleft"><view class="name">比较丑的2048</view><view class="regame" bindtap="regame">重新开始</view></view>
+<view class="gameinforight">你的得分<view class="scord">{{currentscord}}</view></view>
+</view>
+<view class="gamecontainer" bindtouchstart='touchstart' bindtouchend="touchend" bindtouchmove="touchmove">
+<view class="row" wx:for="{{numbers}}" wx:if="{{!fail}}"  wx:for-item="row"  wx:key="key1">
+<view class="cell cell-con-{{cell}}" wx:for="{{row}}" wx:for-item="cell" wx:key="key2">{{cell}}</view>
+</view>
+<view wx:if="{{fail}}">你失败了哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</view>
+</view>
