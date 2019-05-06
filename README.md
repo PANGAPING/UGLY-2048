@@ -1,3 +1,3 @@
 # UGLY-2048
-初探微信小程序，一个丑的2048
-昨天开始接触微信小程序，
+//My first attempt of Wechat applet.
+//This is a simple 2048 game with a ugly interface.
